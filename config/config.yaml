@@ -1,0 +1,14 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Abubakar0011/My_Data_Repo/raw/refs/heads/main/samsum_data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  Status_file: artifacts/data_validation/validation_status.txt
+  Required_files: ["train", "test", "validation"] 
+
